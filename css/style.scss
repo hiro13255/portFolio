@@ -1,0 +1,348 @@
+$Black:#000000;
+
+li {
+  list-style: none;
+  float: right;
+  font-size: 0.8rem;
+  padding: 10px 20px;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+.fadein {
+    opacity: 0.1;
+    transform: translate(0, 50px);
+    transition: all 2700ms;
+}
+
+.scrollin {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+hr {
+    height: 1px;
+    border: none;
+    border-top: 1px $Black solid;
+}
+
+body {
+  margin:0;
+}
+
+/* font */
+.main_text {
+    font-family: "M PLUS Rounded 1c";
+}
+
+/* header */
+.header_container {
+    position: fixed;
+    opacity: 0.9;
+    z-index: 2;
+    background-color: #F0F0F0;
+    height: 5vh;
+    width: 100%;
+    .header_container_category {
+        background-color: #F0F0F0;
+        padding: 10px 0;
+    }
+}
+
+.border_bottom {
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.button {
+    text-align: center;
+}
+
+.index_container {
+    width: 100%;
+    height: 100%;
+
+    .margin_color {
+        clear: both;
+        height: 8vh;
+        background-color: #332a26;
+    }
+
+    /*Top*/
+    .top {
+        position: relative;
+        .header_image {
+            width: 100%;
+            height: 20%;
+        }
+    }
+}
+
+.main_title {
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    font-size: 6vw;
+    left: 30%;
+    top: 40%;
+    z-index: 1;
+}
+
+/* About Me */
+.about_me {
+    background-color: #F0F0F0;
+    padding: 30px 0;
+    .about_me_title{
+        font-family: 'Alegreya Sans SC', sans-serif;
+        text-align: center;
+        margin-bottom: 100px;
+        font-size: 5vw;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+        border-radius: 20%;
+    }
+
+    .about_me_detail {
+        padding: 0 20px;
+        p{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 1.5vw;
+        }
+    }
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+    background-color:#e2f1fa;
+    .skills_title {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: 5vw;
+    }
+    .skill_container {
+        clear: both;
+        text-align: center;
+        img {
+            width: 50%;
+            height: 60%;
+        }
+        .conteiner_text {
+            margin: {
+                top:30px;
+                bottom:30px;
+            };
+            .skill_subtitle {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+/*sevices*/
+.services {
+    text-align: center;
+    background-color: #F0F0F0;
+    padding: 30px 20px;
+    .sevices_title {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: 5vw;
+    }
+
+    .sub_title {
+        font-family: "M PLUS Rounded 1c";
+        font-size: 3vw;
+        margin-top: 10px;
+        border-bottom: 1px solid #c0c0c0;
+    }
+
+    .price {
+        font-size: 2vw;
+    }
+    img {
+        width: 80%;
+        height: 100%;
+    }
+}
+
+/* works */
+
+.works {
+    background-color: #e2f1fa;
+    .achievement {
+        p {
+            font-family: "M PLUS Rounded 1c";
+            text-align: center;
+            font-size: 1.2vw;
+        }
+
+        .about_title {
+            font-family: 'Alegreya Sans SC', sans-serif;
+            font-size: 5vw;
+        }
+
+        .achive_work {
+            font-family: "M PLUS Rounded 1c";
+            font-size: 3.5vw;
+            text-align: center;
+        }
+        img {
+            width: 90%;
+            height: 45%;
+            padding-left: 50px;
+        }
+
+        .contents_work {
+            margin: {
+                top: 10px;
+                bottom: 10px;
+            };
+            padding: 0 20px;
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .link {
+            margin-left: 40%;
+        }
+
+        .link2 {
+            margin-left: 25%;
+        }
+        .image_photo {
+            img {
+                width: 80%;
+                height: 80%;
+                padding: 10px 10px;
+                margin: {
+                    left: 50px;
+                    bottom: 40px;
+                };
+                box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
+
+/* contact */
+.footer_container {
+    text-align: center;
+    background-color: #F0F0F0;
+    padding:5px 0;
+    p {
+        margin-top: 10px;
+    }
+}
+
+/* フォーム */
+
+.contact_form {
+    text-align: center;
+    background-color: #F0F0F0;
+    padding: 40px 0;
+    .contact_title {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: 4rem;
+    }
+    a {
+        padding: 0 40px;
+        text-decoration: none;
+    }
+}
+
+.form_container {
+    margin-top: 40px;
+}
+
+@media (max-width:992px) {
+    .main_title {
+        top: 45%;
+    }
+
+    /* header */
+    .header_container {
+        height: 5vh;
+        width: 100%;
+        .header_container_category {
+            background-color: #F0F0F0;
+            padding: 10px 0;
+        }
+    }
+
+    /* About Me */
+    .about_me {
+        margin-top: 50px;
+        .about_me_title{
+            text-align: center;
+            margin-bottom: 100px;
+            font-size: 40px;
+            background-color:#F0F0F0;
+        }
+
+        .about_me_detail {
+            p{
+                text-align: center;
+                margin-top: 50px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    /* Skills */
+    .skills {
+
+        .skills_title {
+            font-size: 40px;
+        }
+    }
+
+    /* works */
+    .works {
+        .achievement {
+            p {
+                font-size: 15px;
+            }
+            .about_title {
+                font-size: 40px;
+            }
+            .achive_work {
+                font-size: 30px;
+            }
+        }
+    }
+
+
+    /*sevices*/
+    .services {
+        text-align: center;
+        .sevices_title {
+            font-size: 40px;
+            background-color:#F0F0F0;
+        }
+        .services_container {
+            margin-bottom: 20px;
+        }
+        .sub_title {
+            font-size: 30px;
+        }
+        .price {
+        font-size: 30px;
+    }
+    }
+
+    .contact_form {
+        text-align: center;
+        background-color: #F0F0F0;
+        padding: 40px 0;
+        .contact_title {
+            font-size: 40px;
+        }
+    }
+}
