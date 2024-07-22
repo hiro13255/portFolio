@@ -1,5 +1,9 @@
+.skill-contents img {
+  height: 20px;
+  width: auto;
+}
 
 img {
-    height:20px ;
-    width:auto;
+  height: 20px;
+  width: auto;
 }

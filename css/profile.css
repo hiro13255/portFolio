@@ -1,4 +1,84 @@
-.profile-main img {
-    height: 20px;
-    width: 50px;
+section {
+  margin-top: 250px;
+}
+.profile-contents {
+  border-left: 5px solid white;
+  padding: 25px 0 25px 80px;
+  margin-left: 70px;
+}
+
+.profile-img1 {
+  height: 35%;
+  width: 35%;
+  box-shadow: 10px 10px #79bd9a;
+  border-radius: 20px;
+  display: inline;
+  position: relative;
+  left: 20vh;
+}
+.profile-list-1 {
+  font-size: 20px;
+  position: relative;
+  top: 5vh;
+  left: 30vh;
+}
+
+.profile-top {
+  display: flex;
+  margin-bottom: 20px;
+}
+.profile-bottom {
+  display: flex;
+  margin-top: 50px;
+}
+.profile-list-2 {
+  font-size: 20px;
+  position: relative;
+  top: 5vh;
+  left: 20vh;
+}
+.profile-img2 {
+  height: 25%;
+  width: 30%;
+  border-radius: 20px;
+  position: relative;
+  left: 45vh;
+}
+.profile-contents li {
+  padding-bottom: 20px;
+}
+h2 {
+  position: left;
+  position: relative;
+  left: 5vh;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  position: relative;
+}
+.profile-list-1 li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0.5em;
+  left: -1.5em;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(-45deg);
+}
+.profile-list-2 li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0.5em;
+  left: -1.5em;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(-45deg);
 }
