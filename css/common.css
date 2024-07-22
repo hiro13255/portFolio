@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+section {
+  margin-top: 250px;
+}
+
+h2 {
+  position: left;
+  position: relative;
+  left: 5vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  position: relative;
+}
+
+img {
+  height: 20px;
+  width: auto;
+}

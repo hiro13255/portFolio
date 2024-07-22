@@ -1,6 +1,4 @@
-section {
-  margin-top: 250px;
-}
+
 .profile-contents {
   border-left: 5px solid white;
   padding: 25px 0 25px 80px;
@@ -25,11 +23,12 @@ section {
 
 .profile-top {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 25vh;
 }
+
 .profile-bottom {
   display: flex;
-  margin-top: 50px;
+  
 }
 .profile-list-2 {
   font-size: 20px;
@@ -44,20 +43,11 @@ section {
   position: relative;
   left: 45vh;
 }
+
 .profile-contents li {
   padding-bottom: 20px;
 }
-h2 {
-  position: left;
-  position: relative;
-  left: 5vh;
-}
-ul {
-  list-style-type: none;
-}
-li {
-  position: relative;
-}
+
 .profile-list-1 li::after {
   content: "";
   display: block;
@@ -70,6 +60,7 @@ li {
   border-bottom: 2px solid white;
   transform: rotate(-45deg);
 }
+
 .profile-list-2 li::after {
   content: "";
   display: block;
