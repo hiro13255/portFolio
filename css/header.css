@@ -1,9 +1,4 @@
 @charset "utf-8";
-body {
-  margin: 0;
-  background-color: black;
-  color: white;
-}
 
 .header-img img {
   height: 90vh;
