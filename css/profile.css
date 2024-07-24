@@ -14,6 +14,7 @@
   position: relative;
   left: 20vh;
 }
+
 .profile-list-1 {
   font-size: 20px;
   position: relative;
@@ -30,12 +31,14 @@
   display: flex;
   
 }
+
 .profile-list-2 {
   font-size: 20px;
   position: relative;
   top: 5vh;
   left: 20vh;
 }
+
 .profile-img2 {
   height: 25%;
   width: 30%;
