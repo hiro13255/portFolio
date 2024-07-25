@@ -85,6 +85,7 @@
   position: absolute;
   top: 550px;
   left: 650px;
+  
   height: 30vh;
   width: auto;
   text-align: center;
@@ -98,10 +99,11 @@
 }
 
 .circle {
+  display:block;
   float: left;
   width: 20px;
   height: 20px;
   border-radius: 50%;
   background: white;
-  margin: 25px 15px;
+  margin: 28px 15px;
 }
