@@ -1,5 +1,109 @@
 .skill-contents img {
-  height: 20px;
+  height: 15%;
   width: auto;
 }
 
+.skill-language img {
+  height: 20%;
+  width: auto;
+  padding: 0 12px;
+}
+
+.skill-api img {
+  height: 22%;
+  width: auto;
+}
+
+.skill-contents {
+  position: relative;
+  height: 70vh;
+  width: auto;
+
+  /* 左線 */
+  border-left: 5px solid white;
+  padding: 25px 0 25px 80px;
+  margin-left: 70px;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  float: left;
+}
+
+.skill-language {
+  text-align: center;
+  background-color: #79bd9a;
+
+  /* 枠 */
+  width: 400px;
+  height: 450px;
+  left: 195px;
+  top: 2098px;
+
+  box-shadow: 20px 15px 2px rgba(125, 125, 119, 0.35);
+  border-radius: 44px;
+}
+
+.skill-framework {
+  text-align: center;
+  background-color: #79bd9a;
+  height: 250px;
+  width: 80px;
+
+  /* 枠 */
+  width: 400px;
+  height: 450px;
+  left: 195px;
+  top: 2098px;
+
+  box-shadow: 20px 15px 2px rgba(125, 125, 119, 0.35);
+  border-radius: 44px;
+}
+
+.skill-api {
+  text-align: center;
+  background-color: #79bd9a;
+  height: 250px;
+  width: 80px;
+
+  /* 枠 */
+  width: 400px;
+  height: 450px;
+  left: 195px;
+  top: 2098px;
+
+  box-shadow: 20px 15px 2px rgba(125, 125, 119, 0.35);
+  border-radius: 44px;
+}
+
+.skills {
+  float: left;
+  width: 60vh;
+}
+
+.control {
+  position: absolute;
+  top: 550px;
+  left: 650px;
+  
+  height: 30vh;
+  width: auto;
+  text-align: center;
+}
+
+.control img {
+  padding: 20px 20px;
+  height: 40px;
+  width: auto;
+  float: left;
+}
+
+.circle {
+  display:block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  margin: 28px 15px;
+}

@@ -9,9 +9,7 @@ section {
 }
 
 h2 {
-  position: left;
-  position: relative;
-  left: 5vh;
+  margin-left: 40px;
 }
 
 ul {
