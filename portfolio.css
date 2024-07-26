@@ -1,0 +1,129 @@
+
+.portfolio-contents {
+  position: relative;
+  height: 90vh;
+  width: auto;
+  /* 左線 */
+  border-left: 5px solid white;
+  padding: 25px 0 25px 80px;
+  margin-left: 70px;
+  color: black;
+}
+
+.portfolio-contents p {
+  margin: 10px 10px;
+  font-size: 14px;
+}
+
+.portfolio-chat img {
+  height: 30%;
+  width: auto;
+}
+
+.portfolio-ticket img {
+  height: 30%;
+  width: auto;
+}
+
+.portfolio-me img {
+  height: 30%;
+  width: auto;
+}
+
+.portfolio-chat {
+  text-align: center;
+  background-color: #79bd9a;
+  height: 250px;
+  width: 75px;
+  /* 枠 */
+  width: 400px;
+  height: 550px;
+  left: 195px;
+  top: 2098px;
+
+  box-shadow: 20px 15px 2px rgba(125, 125, 119, 0.35);
+  border-radius: 44px;
+}
+
+.portfolio-ticket {
+  text-align: center;
+  background-color: #79bd9a;
+  /* 枠 */
+  width: 400px;
+  height: 550px;
+  left: 195px;
+  top: 2098px;
+
+  box-shadow: 20px 15px 2px rgba(125, 125, 119, 0.35);
+  border-radius: 44px;
+}
+
+.portfolio-me {
+  text-align: center;
+  background-color: #79bd9a;
+  height: 250px;
+  width: 80px;
+  /* 枠 */
+  width: 400px;
+  height: 550px;
+  left: 195px;
+  top: 2098px;
+
+  box-shadow: 20px 15px 2px rgba(125, 125, 119, 0.35);
+  border-radius: 44px;
+}
+
+.portfolios {
+  float: left;
+  width: 50vh;
+  margin-right: 75px;
+}
+
+.portfolio-list {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.portfolio-list li {
+  text-align: left;
+}
+
+.control {
+  position: absolute;
+  top: 600px;
+  left: 650px;
+
+  height: 30vh;
+  width: auto;
+  text-align: center;
+}
+
+.control img {
+  padding: 20px 20px;
+  height: 40px;
+  width: auto;
+  float: left;
+}
+
+.circle {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  margin: 28px 15px;
+}
+
+.portfolio-list li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0.5em;
+  left: -1.5em;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: rotate(-45deg);
+}
