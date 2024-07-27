@@ -5,7 +5,8 @@ body {
 }
 
 section {
-  margin-top: 250px;
+  margin-top: 40px;
+  height: auto;
 }
 
 h2 {
