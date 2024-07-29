@@ -1,18 +1,32 @@
-footer img {
-  position: absolute;
-  height: 250px;
-  width: 100%;
-  object-fit: cover;
-  object-position: 0 66%;
-  z-index: 1;
+.footer {
+  position: relative;
+  height: 15vh;
 }
 
-footer p {
-  width: 230px;
-  position: relative;
-  top: 20px;
-  left: 750px;
-  font-size: 14px;
-  color: black;
-  z-index: 10;
+.footer::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/footer.jpg");
+  background-size: cover;
+  background-position: center 66%;
+  background-repeat: no-repeat;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 4px 0;
+  text-align: center;
+}
+
+.copyright p {
+  margin: 0;
+  color: white;
 }
