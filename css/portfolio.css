@@ -1,0 +1,172 @@
+
+.portfolio-contents {
+  /* 左線 */
+  border-left: 5px solid white;
+  padding-top: 25px;
+  padding-left: 80px;
+  margin-left: 70px;
+}
+
+.portfolio-contents-inner {
+  position: relative;
+  display: flex;
+
+  /* 左線 */
+  border-left: 5px solid white;
+  padding-top: 25px;
+  padding-left: 80px;
+  margin-left: 70px;
+
+  font-size: 20px;
+  color: black;
+}
+
+.portfolio-contents p {
+  margin: 10px 10px;
+  font-size: 14px;
+  height: 20%;
+}
+
+.portfolio-chat img {
+  height: 30%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.portfolio-ticket img {
+  height: 30%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.portfolio-me img {
+  height: 30%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.portfolio-chat {
+  text-align: center;
+  background-color: #79bd9a;
+  height: 250px;
+  width: 75px;
+  /* 枠 */
+  height: 550px;
+
+  box-shadow: 10px 15px 2px rgba(125, 125, 119, 0.35);
+  border-radius: 44px;
+}
+
+.portfolio-chat p {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  padding: 0 15px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-ticket {
+  text-align: center;
+  background-color: #79bd9a;
+  /* 枠 */
+  height: 550px;
+
+  box-shadow: 10px 15px 2px rgba(125, 125, 119, 0.35);
+  border-radius: 44px;
+}
+
+.portfolio-ticket p {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  padding: 0 15px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-me {
+  text-align: center;
+  background-color: #79bd9a;
+  height: 250px;
+  width: 80px;
+  /* 枠 */
+  height: 550px;
+
+  box-shadow: 10px 15px 2px rgba(125, 125, 119, 0.35);
+  border-radius: 44px;
+}
+
+.portfolio-me p {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  padding: 0 15px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.portfolios {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.portfolio-list {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.portfolio-list li {
+  font-size: 14px;
+  text-align: left;
+}
+
+.portfolio-list h4 {
+  margin: 10px 0;
+}
+
+.portfolio-list ul {
+  margin: 0 0;
+}
+
+.portfolio-list li::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0.5em;
+  left: -1.5em;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: rotate(-45deg);
+}
+
+.control {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  margin-top: 24px
+}
+
+.control img {
+  padding: 20px 20px;
+  height: 40px;
+  width: auto;
+}
+
+.circle {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  margin: 28px 15px;
+}
+
+
