@@ -28,9 +28,10 @@
 }
 
 .service-panel img {
-  height: 30%;
+  height: 40%;
   width: 80%;
   margin: 0 auto;
+  object-fit: cover;
 }
 
 .service-panel p {
