@@ -1,11 +1,10 @@
 body {
   margin: 0;
-  background-color: black;
+  background-color: rgb(52, 52, 52);
   color: white;
 }
 
 section {
-  margin-top: 40px;
   height: auto;
 }
 
