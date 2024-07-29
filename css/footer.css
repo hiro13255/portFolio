@@ -1,0 +1,32 @@
+.footer {
+  position: relative;
+  height: 15vh;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/footer.jpg");
+  background-size: cover;
+  background-position: center 66%;
+  background-repeat: no-repeat;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 4px 0;
+  text-align: center;
+}
+
+.copyright p {
+  margin: 0;
+  color: white;
+}
