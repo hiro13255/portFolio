@@ -96,4 +96,8 @@
   .hamburger.active {
     z-index: 11;
   }
+
+  .header-list a {
+    font-size: 1.7rem;
+  }
 }
