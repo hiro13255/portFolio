@@ -15,7 +15,7 @@
 }
 
 .profile-list-1 {
-  font-size: 20px;
+  font-size: 16px;
   position: relative;
   top: 5vh;
   left: 30vh;
@@ -31,7 +31,7 @@
 }
 
 .profile-list-2 {
-  font-size: 20px;
+  font-size: 16px;
   position: relative;
   top: 5vh;
   left: 20vh;
@@ -42,7 +42,7 @@
   width: 30%;
   border-radius: 20px;
   position: relative;
-  left: 45vh;
+  left: 35vh;
 }
 
 .profile-contents li {
@@ -85,18 +85,20 @@
 
   .profile-bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     margin-bottom: 10vh;
   }
 
   .profile-img1 {
-    height: 40%;
-    width: 45%;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: left top;
     position: relative;
     left: auto;
   }
-  
+
   .profile-list-1 {
     font-size: 1.2rem;
     position: relative;
@@ -110,10 +112,12 @@
   }
 
   .profile-img2 {
-    height: 40%;
-    width: 45%;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: left bottom;
     position: relative;
-    top: 5vh;
+    bottom: 3vh;
     left: auto;
   }
 }
