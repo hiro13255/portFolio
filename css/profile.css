@@ -126,38 +126,27 @@
   .profile-contents {
     border-left: 5px solid white;
     border: none;
-    padding: 25px 0 25px 60px;
+    padding: 0;
     margin-left: 0;
   }
 
   .profile-img1 {
-    width: 250px;
+    width: 30vw;
     height: 150px;
-    object-fit: cover;
-    object-position: left top;
-    position: relative;
-    left: auto;
   }
 
   .profile-list-1 {
     font-size: 1rem;
     position: relative;
-    left: auto;
   }
 
   .profile-list-2 {
-    font-size: 1.0rem;
+    font-size: 1rem;
     position: relative;
-    left: auto;
   }
 
   .profile-img2 {
-    width: 250px;
+    width: 30vw;
     height: 150px;
-    object-fit: cover;
-    object-position: left bottom;
-    position: relative;
-    bottom: 3vh;
-    left: auto;
   }
 }
