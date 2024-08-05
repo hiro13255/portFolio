@@ -144,26 +144,6 @@
   transform: rotate(-45deg);
 }
 
-.control {
-  display: flex;
-  width: auto;
-  justify-content: center;
-  margin-top: 24px
-}
-
-.control img {
-  padding: 20px 20px;
-  height: 40px;
-  width: auto;
-}
-
-.circle {
-  display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: white;
-  margin: 28px 15px;
-}
+/* .control img   .circle  はskillで指定 */
 
 
