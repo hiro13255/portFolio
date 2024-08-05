@@ -66,6 +66,7 @@
 .portfolio-ticket {
   text-align: center;
   background-color: #79bd9a;
+  width: 75px;
   /* 枠 */
   height: 670px;
 
@@ -176,4 +177,62 @@
 }
 
 @media (max-width: 767px) {
+  .portfolio-contents {
+    border: none;
+    padding: 0;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .portfolio-contents-inner {
+    font-size: 0.6rem;
+  }
+
+  .portfolio-contents p {
+    font-size: 0.4rem;
+    height: 35%;
+    padding: 0 5px;
+  }
+
+  .portfolio-contents h3 {
+    font-size: 0.8rem;
+    height: 13%;
+  }
+
+  .portfolio-chat img {
+    height: 15%;
+  }
+
+  .portfolio-ticket img {
+    height: 15%;
+  }
+
+  .portfolio-me img {
+    height: 15%;
+  }
+
+  .portfolio-chat {
+    height: 500px;
+  }
+
+  .portfolio-ticket {
+    height:500px;
+  }
+
+  .portfolio-me {
+    height: 500px;
+  }
+
+  .portfolio-list {
+    width: auto;
+  }
+
+  .portfolio-list li {
+    font-size: 0.6rem;
+  }
+
+  .portfolio-list li::after {
+    width: 5px;
+    height: 2.5px;
+  }
 }
