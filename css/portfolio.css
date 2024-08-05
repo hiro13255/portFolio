@@ -154,26 +154,38 @@
   height: auto;
 }
 
+.portfolio-chat p {
+  height: 240px;
+}
+
+.portfolio-ticket p {
+  height: 255px;
+}
+
+.portfolio-me p {
+  height: 255px;
+}
+
 .portfolio-ticket h3 {
-  margin: 11% 0 ;
+  /* margin: 11% 0 ; */
 }
 
 .portfolio-me h3 {
-margin: 8% 0 ;
+/* margin: 8% 0 ; */
 }
 
 .portfolio-chat img {
-  height: 25%;
+  height: 20%;
   width: 60%;
 }
 
 .portfolio-ticket img {
-  height: 25%;
+  height: 20%;
   width: 60%;
 }
 
 .portfolio-me img {
-  height: 25%;
+  height: 20%;
   width: 60%;
   object-position: right;
 }
