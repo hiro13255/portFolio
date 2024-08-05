@@ -69,4 +69,29 @@
 }
 
 @media (max-width: 767px) {
+  .services-contents {
+    border: none;
+    padding: 0;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .services-contents h3 {
+    font-size: 0.8rem;
+    margin: 2% 5%;
+  }
+
+  .service-panel img {
+    height: 20%;
+    width: 60%;
+  }
+
+  .services-contents p {
+    font-size: 0.6rem;
+    padding: 10px 10px;
+  }
+
+  .service-panel {
+    height: 350px;
+  }
 }
