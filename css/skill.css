@@ -130,8 +130,6 @@
   }
 
   .skill-contents {
-    /* 左線 */
-    border-left: 5px solid white;
     border: none;
     padding: 0;
     margin-left: 7%;
