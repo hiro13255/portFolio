@@ -3,7 +3,7 @@
   width: auto;
 }
 
-.nextjs img {
+.imgae-resize img {
   display: block;
   height: 12%;
   width: 50%;
@@ -81,42 +81,15 @@
   margin: 0 10px;
 }
 
-.control {
-  display: flex;
-  width: auto;
-  justify-content: center;
-  margin-top: 24px;
-}
-
-.control img {
-  padding: 20px 20px;
-  height: 40px;
-}
-
-.circle {
-  display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: white;
-  margin: 28px 15px;
-}
-
-.sp_br {
-  display: none;
-}
 
 @media (max-width: 1279px) {
-  .sp_br {
-    display: inline;
-  }
-
+ 
   .skill-framework img {
     height: 11%;
     width: auto;
   }
 
-  .nextjs img {
+  .imgae-resize img {
     height: 11%;
     width: 50%;
     margin: 4% auto;
@@ -132,18 +105,6 @@
     font-size: 1rem;
   }
 
-  .control img {
-    padding: 20px 20px;
-    height: 30px;
-  }
-
-  .circle {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: white;
-    margin: 28px 15px;
-  }
 }
 
 @media (max-width: 767px) {

@@ -20,3 +20,48 @@ li {
   position: relative;
 }
 
+.control {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.control img {
+  padding: 20px 20px;
+  height: 40px;
+}
+
+.circle {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  margin: 28px 15px;
+}
+
+.sp_br {
+  display: none;
+}
+
+@media (max-width: 1279px) {
+
+  .sp_br {
+    display: inline;
+  }
+
+  .control img {
+    padding: 20px 20px;
+    height: 30px;
+  }
+
+  .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+    margin: 28px 15px;
+  }
+  
+}
