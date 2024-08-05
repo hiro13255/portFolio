@@ -46,7 +46,6 @@ li {
 }
 
 @media (max-width: 1279px) {
-
   .sp_br {
     display: inline;
   }
@@ -63,5 +62,19 @@ li {
     background: white;
     margin: 28px 15px;
   }
-  
+}
+
+@media (max-width: 767px) {
+  .control img {
+    padding: 15px 15px;
+    height: 20px;
+  }
+
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    margin: 20px 10px;
+  }
 }
