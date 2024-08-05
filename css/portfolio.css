@@ -144,5 +144,43 @@
   transform: rotate(-45deg);
 }
 
+@media (max-width: 1279px) {
+.portfolio-contents-inner {
+  font-size: 0.8rem;
+}
+
+.portfolio-contents p {
+  font-size: 0.7rem;
+  height: auto;
+}
+
+.portfolio-ticket h3 {
+  margin: 11% 0 ;
+}
+
+.portfolio-me h3 {
+margin: 8% 0 ;
+}
+
+.portfolio-chat img {
+  height: 25%;
+  width: 60%;
+}
+
+.portfolio-ticket img {
+  height: 25%;
+  width: 60%;
+}
+
+.portfolio-me img {
+  height: 25%;
+  width: 60%;
+  object-position: right;
+}
+
+
+@media (max-width: 767px) {
+
+}
 
 
