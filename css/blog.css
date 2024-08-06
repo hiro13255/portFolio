@@ -25,3 +25,14 @@
   color: white;
   text-align: left;
 }
+
+@media (max-width: 1279px) {
+  .blog-contents img {
+    height: 30%;
+    width: 35%;
+  }
+
+  .blog-contents p {
+    font-size: 0.8rem;
+  }
+}
