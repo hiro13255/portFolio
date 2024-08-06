@@ -42,3 +42,34 @@
   height: 20px;
   width: auto;
 }
+
+
+@media (max-width: 767px) {
+  .contact-contents {
+    border: none;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .contact-list {
+    text-align: center;
+  }
+
+  .contact-list ul {
+    width: 100%;
+  }
+
+  .contact-list li {
+    font-size: 0.6rem;
+  }
+
+  .contact-list li::after {
+    width: 5px;
+    height: 2.5px;
+  }
+
+  .contact-contents img {
+    height: 12px;
+    margin:2% auto 0 auto;
+    }
+}
