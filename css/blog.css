@@ -26,6 +26,23 @@
   text-align: left;
 }
 
+
+@media (max-width: 767px) {
+  .blog-contents {
+    border: none;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .blog-contents img {
+    height: 25%;
+    width: 30%;
+  }
+
+  .blog-contents p {
+    font-size: 1rem;
+    margin-top: 20px;
+
 @media (max-width: 1279px) {
   .blog-contents img {
     height: 30%;
