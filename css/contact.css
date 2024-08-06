@@ -42,3 +42,18 @@
   height: 20px;
   width: auto;
 }
+
+@media (max-width: 1279px) {
+  .contact-list li {
+    font-size: 0.8rem;
+  }
+
+  .contact-list li::after {
+    width: 8px;
+    height: 4px;
+  }
+
+  .contact-contents img {
+    height: 15px;
+  }
+}
