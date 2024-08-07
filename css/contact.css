@@ -15,7 +15,7 @@
 }
 
 .contact-list li {
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -43,7 +43,15 @@
   width: auto;
 }
 
+@media (max-width: 1279px) {
+  .contact-list li {
+    font-size: 1.2rem;
+  }
 
+  .contact-contents img {
+    height: 25px;
+  }
+}
 
 @media (max-width: 767px) {
   .contact-contents {
@@ -61,32 +69,11 @@
   }
 
   .contact-list li {
-    font-size: 0.6rem;
-  }
-
-  .contact-list li::after {
-    width: 5px;
-    height: 2.5px;
+    font-size: 1rem;
   }
 
   .contact-contents img {
-    height: 12px;
-    margin:2% auto 0 auto;
-    }
-}
-
-@media (max-width: 1279px) {
-  .contact-list li {
-    font-size: 1.2rem;
-  }
-
-  .contact-list li::after {
-    width: 8px;
-    height: 4px;
-  }
-
-  .contact-contents img {
-    height: 20px;
+    height: 17px;
+    margin: 2% auto 0 auto;
   }
 }
-

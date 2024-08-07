@@ -15,6 +15,13 @@
   width: auto;
   padding: 0 12px;
 }
+
+.python-resize img {
+  height: 16%;
+  width: 50%;
+  padding: 0 12px;
+}
+
 .skill-api img {
   height: 14%;
   width: auto;
@@ -96,6 +103,10 @@
     height: 13%;
   }
 
+  .python-resize img {
+    height: 13%;
+  }
+
   .skill-contents-inner {
     font-size: 1rem;
   }
@@ -115,6 +126,10 @@
   }
 
   .skill-language img {
+    height: 11%;
+  }
+
+  .python-resize img {
     height: 11%;
   }
 
