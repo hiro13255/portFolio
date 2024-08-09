@@ -48,7 +48,7 @@
   }
 
   #global-nav.m_fixed {
-    display: none;
+    position: static;
   }
 
   .header-area {
