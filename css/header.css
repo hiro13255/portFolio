@@ -5,35 +5,56 @@
   width: 100%;
   object-fit: cover;
 }
-.header-list nav {
+
+#global-nav {
   display: inline-block;
-}
-.header-list {
-  text-align: center;
   height: 60px;
 }
+
+.header-list {
+  text-align: center;
+}
+
 .header-list li {
   list-style: none;
   float: left;
-  margin: 0 60px 0 60px;
+  margin: 0 50px 0 50px;
 }
+
 .header-list a {
   text-decoration: none;
   font-size: 32px;
   color: aliceblue;
 }
 
-@media (max-width: 1279px) {
+#global-nav.m_fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 3.5%;
+  height: 60px;
+  width: 100%;
+  z-index: 999;
+  background-color: rgb(52, 52, 52);
+}
 
+@media (max-width: 1279px) {
   .header-img img {
     height: 75vh;
   }
+
   body {
     overflow-x: hidden;
   }
+
+  #global-nav.m_fixed {
+    display: none;
+  }
+
   .header-area {
     align-items: center;
   }
+
   .hamburger {
     position: fixed;
     top: 15px;
@@ -41,6 +62,7 @@
     width: 40px;
     height: 25px;
   }
+
   .hamburger span {
     position: absolute;
     width: 100%;
@@ -48,18 +70,22 @@
     background-color: white;
     transition: 0.5s; /* 追記 */
   }
+
   .hamburger span:first-of-type {
     /* ハンバーガーメニューの1番目の線 */
     top: 0;
   }
+
   .hamburger span:nth-of-type(2) {
     /* ハンバーガーメニューの2番目の線 */
     top: 50%;
   }
+
   .hamburger span:last-of-type {
     /* ハンバーガーメニューの3番目の線 */
     top: 100%;
   }
+
   .slide-menu {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
@@ -69,25 +95,30 @@
     transform: translateX(100%);
     transition: 0.5s;
   }
+
   .slide-menu li {
     color: #fff;
     line-height: 400%;
     text-align: center;
   }
+
   .hamburger.active span:first-of-type {
     /* ハンバーガーメニューの1番目の線 */
     top: 50%;
     transform: rotate(45deg);
   }
+
   .hamburger.active span:nth-of-type(2) {
     /* ハンバーガーメニューの2番目の線 */
     opacity: 0; /* 透明にする */
   }
+
   .hamburger.active span:last-of-type {
     /* ハンバーガーメニューの3番目の線 */
     top: 50%;
     transform: rotate(-45deg);
   }
+
   .slide-menu.active {
     transform: translateX(0);
     display: flex;
@@ -107,7 +138,6 @@
 }
 
 @media (max-width: 767px) {
-
   .header-img img {
     height: 40vh;
   }
