@@ -48,7 +48,7 @@
   }
 
   #global-nav.m_fixed {
-    display: none;
+    position: static;
   }
 
   .header-area {
@@ -61,6 +61,7 @@
     right: 15px;
     width: 40px;
     height: 25px;
+    z-index: 999;
   }
 
   .hamburger span {
