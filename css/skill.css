@@ -35,7 +35,7 @@
   margin-left: 70px;
 }
 
-.skill-contents-inner {
+.swiper-wrapper {
   position: relative;
   display: flex;
 
@@ -83,9 +83,27 @@
   border-radius: 44px;
 }
 
-.skills {
+.swiper-slide {
   width: 60vh;
   margin: 0 10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+}
+
+.swiper-pagination-bullet {
+  background: white;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: auto;
+  height: auto;
 }
 
 @media (max-width: 1279px) {
