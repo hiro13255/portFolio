@@ -6,10 +6,12 @@
 .imgae-resize img {
   display: block;
   height: 12%;
-  width: 50%;
+  width: 25%;
   margin: 7% auto;
 }
-
+.imgae-resize {
+  display: flex;
+}
 .skill-language img {
   height: 16%;
   width: auto;
@@ -18,7 +20,7 @@
 
 .python-resize img {
   height: 16%;
-  width: 50%;
+  width: 40%;
   padding: 0 12px;
 }
 
@@ -33,6 +35,7 @@
   padding-top: 25px;
   padding-left: 80px;
   margin-left: 70px;
+  position: relative;
 }
 
 .swiper-wrapper {
@@ -83,28 +86,7 @@
   border-radius: 44px;
 }
 
-.swiper-slide {
-  width: 60vh;
-  margin: 0 10px;
-}
 
-.swiper-button-prev,
-.swiper-button-next {
-  color: white;
-}
-
-.swiper-pagination-bullet {
-  background: white;
-}
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  width: auto;
-  height: auto;
-}
 
 @media (max-width: 1279px) {
   .skill-framework img {
@@ -116,7 +98,9 @@
     width: 50%;
     margin: 4% auto;
   }
-
+  .imgae-resize {
+    display: inline;
+  }
   .skill-language img {
     height: 13%;
   }
