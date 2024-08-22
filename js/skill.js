@@ -7,6 +7,7 @@ const swiper = new Swiper(".swiper", {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "2.5",
+    clickable: true,
     spaceBetween:-250,
 
     coverflowEffect: {
@@ -19,6 +20,6 @@ const swiper = new Swiper(".swiper", {
 
     navigation: {
       nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
+      prevEl: ".swiper-button-prev",
     }
   });

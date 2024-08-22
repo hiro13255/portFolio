@@ -23,12 +23,10 @@ li {
 .control {
   display: flex ;
   width: auto ;
-  justify-content: center ;
   margin-top: 24px;
 }
 
 .control img {
-  position: relative;
   padding: 20px 20px;
   height: 40px ;
 }
@@ -38,13 +36,13 @@ li {
 }
 
 .swiper .swiper-button-prev {
-  position: relative;
-  left: -5%;
+  margin-top: 188px;
+  margin-left: 400px;
 }
 
 .swiper .swiper-button-next {
-  position: relative;
-  right: -5%;
+  margin-top: 188px;
+  margin-right: 400px;
 }
 
 .swiper-pagination-bullets.swiper-pagination-horizontal {
