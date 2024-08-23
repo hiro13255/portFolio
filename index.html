@@ -39,6 +39,13 @@
     />
     <link href=”https://use.fontawesome.com/releases/v6.0.0/css/all.css”
     rel=”stylesheet”>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </head>
 
   <body>
@@ -106,53 +113,60 @@
       <section id="skill">
         <h2>Skill</h2>
         <div class="skill-contents">
-          <div class="skill-contents-inner">
-            <div class="skills">
-              <div class="skill-language">
-                <h3>言語</h3>
-                <img src="img/skill-logo/HTML5.svg" alt="html" />
-                <img src="img/skill-logo/CSS3.svg" alt="css" />
-                <img src="img/skill-logo/SASS.svg" alt="sass" />
-                <img src="img/skill-logo/js.png" alt="js" />
-                <img src="img/skill-logo/TS.png" alt="ts" />
-                <img src="img/skill-logo/GO.jpg" alt="go" />
-                <img src="img/skill-logo/C++.png" alt="c++" />
-                <img src="img/skill-logo/dart.svg" alt="dart" />
-                <div class="python-resize">
-                  <img src="img/skill-logo/python.png" alt="python" />
+          <div class="swiper">
+            <div class="skill-contents-inner swiper-wrapper">
+              <div class="skills swiper-slide">
+                <div class="skill-framework">
+                  <h3>フレームワーク<br class="sp_br" />・ライブラリ</h3>
+                  <img src="img/skill-logo/react-logo (1).svg" alt="react" />
+                  <img src="img/skill-logo/fastapi.png" alt="fastapi" />
+                  <img src="img/skill-logo/vue.png" alt="vue" />
+                  <div class="imgae-resize">
+                    <img src="img/skill-logo/nextjs.svg" alt="nextjs" />
+                    <img src="img/skill-logo/flutter.svg" alt="flutter" />
+                    <img src="img/skill-logo/gorm.svg" alt="gorm" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills swiper-slide">
+                <div class="skill-language">
+                  <h3>言語</h3>
+                  <img src="img/skill-logo/HTML5.svg" alt="html" />
+                  <img src="img/skill-logo/CSS3.svg" alt="css" />
+                  <img src="img/skill-logo/SASS.svg" alt="sass" />
+                  <img src="img/skill-logo/js.png" alt="js" />
+                  <img src="img/skill-logo/TS.png" alt="ts" />
+                  <img src="img/skill-logo/GO.jpg" alt="go" />
+                  <img src="img/skill-logo/C++.png" alt="c++" />
+                  <img src="img/skill-logo/dart.svg" alt="dart" />
+                  <div class="python-resize">
+                    <img src="img/skill-logo/python.png" alt="python" />
+                  </div>
+                </div>
+              </div>
+              
+              <div class="skills swiper-slide">
+                <div class="skill-api">
+                  <h3>インフラ<br class="sp_br" />・外部API</h3>
+                  <img src="img/skill-logo/aws.png" alt="aws" />
+                  <img src="img/skill-logo/github.png" alt="github" />
                 </div>
               </div>
             </div>
-
-            <div class="skills">
-              <div class="skill-framework">
-                <h3>フレームワーク<br class="sp_br" />・ライブラリ</h3>
-                <img src="img/skill-logo/react-logo (1).svg" alt="react" />
-                <img src="img/skill-logo/fastapi.png" alt="fastapi" />
-                <img src="img/skill-logo/vue.png" alt="vue" />
-                <div class="imgae-resize">
-                  <img src="img/skill-logo/nextjs.svg" alt="nextjs" />
-                  <img src="img/skill-logo/flutter.svg" alt="flutter" />
-                  <img src="img/skill-logo/gorm.svg" alt="gorm" />
-                </div>
-              </div>
-            </div>
-
-            <div class="skills">
-              <div class="skill-api">
-                <h3>インフラ<br class="sp_br" />・外部API</h3>
-                <img src="img/skill-logo/aws.png" alt="aws" />
-                <img src="img/skill-logo/github.png" alt="github" />
-              </div>
+            <div class="control">
+              <img src="img/left.png" alt="left" class="swiper-button-prev"  />
+              <div class="swiper-pagination"></div>
+              <img src="img/right.png" alt="right"  class="swiper-button-next" />
             </div>
           </div>
-          <div class="control">
-            <img src="img/left.png" alt="left" />
+          <!-- <div class="control">
+            <img src="img/left.png" alt="left" class="swiper-button-prev"  />
             <span class="circle"></span>
             <span class="circle"></span>
             <span class="circle"></span>
-            <img src="img/right.png" alt="right" />
-          </div>
+            <img src="img/right.png" alt="right"  class="swiper-button-next" />
+          </div> -->
         </div>
       </section>
 
@@ -309,6 +323,7 @@
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
       crossorigin="anonymous"
     ></script>
+    <script src="js/skill.js"></script>
     <script src="js/hamburger.js"></script>
     <script src="js/header.js"></script>
   </body>
