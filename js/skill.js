@@ -6,7 +6,7 @@ const swiper = new Swiper(".swiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: "2.5",
+    slidesPerView: "1.5",
     clickable: true,
     spaceBetween:-250,
 
