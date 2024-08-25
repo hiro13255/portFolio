@@ -8,7 +8,7 @@
 
 .services-contents-inner {
   position: relative;
-  display: flex;
+  /* display: flex; */
 
   font-size: 20px;
   color: black;
@@ -20,9 +20,8 @@
   height: 250px;
   width: 75px;
   /* 枠 */
-  height: 550px;
+  height: 550px !important;
 
-  box-shadow: 10px 15px 2px rgba(125, 125, 119, 0.35);
   border-radius: 44px;
 }
 
@@ -44,9 +43,9 @@
 }
 
 .services {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 1; */
   margin: 0 10px;
 }
 

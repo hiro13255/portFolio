@@ -47,9 +47,8 @@
   height: 250px;
   width: 75px;
   /* 枠 */
-  height: 670px;
+  height: 670px !important;
 
-  box-shadow: 10px 15px 2px rgba(125, 125, 119, 0.35);
   border-radius: 44px;
 }
 
@@ -68,9 +67,8 @@
   background-color: #79bd9a;
   width: 75px;
   /* 枠 */
-  height: 670px;
+  height: 670px !important;
 
-  box-shadow: 10px 15px 2px rgba(125, 125, 119, 0.35);
   border-radius: 44px;
 }
 
@@ -90,9 +88,8 @@
   height: 250px;
   width: 80px;
   /* 枠 */
-  height: 670px;
+  height: 670px !important;
 
-  box-shadow: 10px 15px 2px rgba(125, 125, 119, 0.35);
   border-radius: 44px;
 }
 
@@ -143,6 +140,8 @@
   border-bottom: 2px solid black;
   transform: rotate(-45deg);
 }
+
+
 
 @media (max-width: 1279px) {
   .portfolio-contents-inner {

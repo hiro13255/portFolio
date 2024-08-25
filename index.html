@@ -44,8 +44,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </head>
 
   <body>
@@ -145,7 +148,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="skills swiper-slide">
                 <div class="skill-api">
                   <h3>インフラ<br class="sp_br" />・外部API</h3>
@@ -155,91 +158,83 @@
               </div>
             </div>
             <div class="control">
-              <img src="img/left.png" alt="left" class="swiper-button-prev"  />
+              <img src="img/left.png" alt="left" class="swiper-button-prev" />
               <div class="swiper-pagination"></div>
-              <img src="img/right.png" alt="right"  class="swiper-button-next" />
+              <img src="img/right.png" alt="right" class="swiper-button-next" />
             </div>
           </div>
-          <!-- <div class="control">
-            <img src="img/left.png" alt="left" class="swiper-button-prev"  />
-            <span class="circle"></span>
-            <span class="circle"></span>
-            <span class="circle"></span>
-            <img src="img/right.png" alt="right"  class="swiper-button-next" />
-          </div> -->
         </div>
       </section>
 
       <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="portfolio-contents">
-          <div class="portfolio-contents-inner">
-            <div class="portfolio-chat portfolios">
-              <h3>
-                制限強めな<br class="sp_br" />チャットアプリ<br
-                  class="sp_br"
-                />(製作中)
-              </h3>
-              <img src="img/chat.jpg" alt="チャット" />
-              <p>
-                互いがIDを知らないとチャットができないアプリです。<br />
-                また、最後にやりとりしてから設定した時間が経過した場合は
-                自然とチャットルームが削除され履歴が残らないようになってます。<br />
-                早く決めたいことなどがある時に活用できると思います
-              </p>
-              <div class="portfolio-list">
-                <h4>技術スタック</h4>
-                <ul>
-                  <li>Typescript</li>
-                  <li>Next.js</li>
-                  <li>Firebase</li>
-                  <li>YamadaUI</li>
-                  <li>Vercel</li>
-                </ul>
+          <div class="swiper">
+            <div class="portfolio-contents-inner swiper-wrapper">
+              <div class="portfolio-ticket portfolios swiper-slide">
+                <h3>整理券発券<br class="sp_br" />システム</h3>
+                <img src="img/ticket.jpg" alt="ticket" />
+                <p>
+                  後輩の学園祭で使用する整理券発券システムを作りました。
+                  大人数が来場する想定で一気に入場してしまうと混乱を招いてしまう為、このアプリの開発をしました。
+                  インフラ周りは全て無料枠で作成しコストも最低限で済むように工夫をしました。
+                </p>
+                <div class="portfolio-list">
+                  <h4>技術スタック</h4>
+                  <ul>
+                    <li>GAS</li>
+                    <li>AWS Lambda</li>
+                    <li>python</li>
+                    <li>Vue.js</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="portfolio-chat portfolios swiper-slide">
+                <h3>
+                  制限強めな<br class="sp_br" />チャットアプリ<br
+                    class="sp_br"
+                  />(製作中)
+                </h3>
+                <img src="img/chat.jpg" alt="チャット" />
+                <p>
+                  互いがIDを知らないとチャットができないアプリです。<br />
+                  また、最後にやりとりしてから設定した時間が経過した場合は
+                  自然とチャットルームが削除され履歴が残らないようになってます。<br />
+                  早く決めたいことなどがある時に活用できると思います
+                </p>
+                <div class="portfolio-list">
+                  <h4>技術スタック</h4>
+                  <ul>
+                    <li>Typescript</li>
+                    <li>Next.js</li>
+                    <li>Firebase</li>
+                    <li>YamadaUI</li>
+                    <li>Vercel</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="portfolio-me portfolios swiper-slide">
+                <h3>自分の<br class="sp_br" />ポートフォリオサイト</h3>
+                <img src="img/me.jpg" alt="me" />
+                <p>
+                  自分自身のポートフォリオサイトです。
+                  今までやってきたことなどをまとめて確認することができます。
+                </p>
+                <div class="portfolio-list">
+                  <h4>技術スタック</h4>
+                  <ul>
+                    <li>HTML</li>
+                    <li>SCSS</li>
+                    <li>Javascript</li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div class="portfolio-ticket portfolios">
-              <h3>整理券発券<br class="sp_br" />システム</h3>
-              <img src="img/ticket.jpg" alt="ticket" />
-              <p>
-                後輩の学園祭で使用する整理券発券システムを作りました。
-                大人数が来場する想定で一気に入場してしまうと混乱を招いてしまう為、このアプリの開発をしました。
-                インフラ周りは全て無料枠で作成しコストも最低限で済むように工夫をしました。
-              </p>
-              <div class="portfolio-list">
-                <h4>技術スタック</h4>
-                <ul>
-                  <li>GAS</li>
-                  <li>AWS Lambda</li>
-                  <li>python</li>
-                  <li>Vue.js</li>
-                </ul>
-              </div>
+            <div class="portfolio-control control">
+              <img src="img/left.png" alt="left" class="swiper-button-prev" />
+              <div class="swiper-pagination"></div>
+              <img src="img/right.png" alt="right" class="swiper-button-next" />
             </div>
-            <div class="portfolio-me portfolios">
-              <h3>自分の<br class="sp_br" />ポートフォリオサイト</h3>
-              <img src="img/me.jpg" alt="me" />
-              <p>
-                自分自身のポートフォリオサイトです。
-                今までやってきたことなどをまとめて確認することができます。
-              </p>
-              <div class="portfolio-list">
-                <h4>技術スタック</h4>
-                <ul>
-                  <li>HTML</li>
-                  <li>SCSS</li>
-                  <li>Javascript</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="control">
-            <img src="img/left.png" alt="left" />
-            <span class="circle"></span>
-            <span class="circle"></span>
-            <span class="circle"></span>
-            <img src="img/right.png" alt="right" />
           </div>
         </div>
       </section>
@@ -247,38 +242,38 @@
       <section id="service">
         <h2>Service</h2>
         <div class="services-contents">
-          <div class="services-contents-inner">
-            <div class="service-panel services">
-              <h3>Webシステム開発</h3>
-              <img src="img/web.jpg" alt="web" />
-              <p>
-                フロントエンド、バックエンド、インフラ 全て業務経験があり、
-                最新の技術スタックでの開発が可能です。
-              </p>
+          <div class="swiper">
+            <div class="services-contents-inner swiper-wrapper">
+              <div class="service-panel services swiper-slide">
+                <h3>HP制作</h3>
+                <img src="img/hp.jpg" alt="hp" />
+                <p>
+                  HTML、CSS、JSを使用した
+                  リッチなHP制作を行います。デザインもご相談いただけます。
+                </p>
+              </div>
+              <div class="service-panel services swiper-slide">
+                <h3>Webシステム開発</h3>
+                <img src="img/web.jpg" alt="web" />
+                <p>
+                  フロントエンド、バックエンド、インフラ 全て業務経験があり、
+                  最新の技術スタックでの開発が可能です。
+                </p>
+              </div>
+              <div class="service-panel services swiper-slide">
+                <h3>便利ツール開発</h3>
+                <img src="img/tool.jpg" alt="tool" />
+                <p>
+                  データ収集ツールや、
+                  エクセルに自動でテータを入力するツールなど
+                </p>
+              </div>
             </div>
-            <div class="service-panel services">
-              <h3>HP制作</h3>
-              <img src="img/hp.jpg" alt="hp" />
-              <p>
-                HTML、CSS、JSを使用した
-                リッチなHP制作を行います。デザインもご相談いただけます。
-              </p>
+            <div class="services-control control">
+              <img src="img/left.png" alt="left" class="swiper-button-prev" />
+              <div class="swiper-pagination"></div>
+              <img src="img/right.png" alt="right" class="swiper-button-next" />
             </div>
-            <div class="service-panel services">
-              <h3>便利ツール開発</h3>
-              <img src="img/tool.jpg" alt="tool" />
-              <p>
-                データ収集ツールや、 エクセルに自動でテータを入力するツールなど
-              </p>
-            </div>
-          </div>
-
-          <div class="control">
-            <img src="img/left.png" alt="left" />
-            <span class="circle"></span>
-            <span class="circle"></span>
-            <span class="circle"></span>
-            <img src="img/right.png" alt="right" />
           </div>
         </div>
       </section>
@@ -287,7 +282,7 @@
         <h2>Blog</h2>
         <div class="blog-contents">
           <div class="blog-contents-inner">
-            <img src="img/blog.jpg" alt="blog" />
+            <a href="https://diaryout.com/"><img src="img/blog.jpg" alt="blog" /></a>
             <p>
               個人ブログを運営しています。<br />
               技術記事やマインドセットに関しての記事を書いています。
