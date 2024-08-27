@@ -17,10 +17,8 @@
 .service-panel {
   text-align: center;
   background-color: #79bd9a;
-  height: 250px;
   width: 75px;
   /* 枠 */
-  height: 550px ;
 
   border-radius: 44px;
 }

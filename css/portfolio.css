@@ -44,10 +44,8 @@
 .portfolio-chat {
   text-align: center;
   background-color: #79bd9a;
-  height: 250px;
   width: 75px;
   /* 枠 */
-  height: 670px ;
 
   border-radius: 44px;
 }
@@ -67,7 +65,6 @@
   background-color: #79bd9a;
   width: 75px;
   /* 枠 */
-  height: 670px ;
 
   border-radius: 44px;
 }
@@ -85,11 +82,9 @@
 .portfolio-me {
   text-align: center;
   background-color: #79bd9a;
-  height: 250px;
   width: 80px;
   /* 枠 */
-  height: 670px ;
-
+  
   border-radius: 44px;
 }
 
@@ -212,17 +207,6 @@
   }
 
   .swiper .portfolio-contents-inner .swiper-slide {
-    height: 500px;
-  }
-  .portfolio-chat {
-    height: 500px;
-  }
-
-  .portfolio-ticket {
-    height:500px;
-  }
-
-  .portfolio-me {
     height: 500px;
   }
 
