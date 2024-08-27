@@ -7,6 +7,7 @@
   width: 100%;
   z-index: 999;
 }
+
 .logo_fadein p {
   position: fixed;
   left: 50%;
@@ -15,35 +16,33 @@
   display: none;
   z-index: 9999;
   width: auto;
-  font-size: 5.0rem;
+  font-size: 4.0rem;
   color: white;
 }
 
-/*========= 1文字ずつ出現させるためのCSS ===============*/
-
-.eachTextAnime span {
-  opacity: 0;
-}
-.eachTextAnime.appeartext span {
-  animation: text_anime_on 1s ease-out forwards;
-}
-@keyframes text_anime_on {
-  0% {
-    opacity: 0;
+.TextTyping span {
+    display: none;
   }
-  100% {
-    opacity: 1;
+  
+  /*文字列後ろの線の設定*/
+  .TextTyping::after {
+    content: "|";
+    animation: typinganime .8s ease infinite;
   }
-}
+  
+  @keyframes typinganime{
+    from{opacity:0}
+    to{opacity:1}
+  }
 
 @media (max-width: 1279px) {
     .logo_fadein p {
-        font-size: 3.5rem;
+        font-size: 3.0rem;
     }
 }
 
 @media (max-width: 767px) {
     .logo_fadein p {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
 }

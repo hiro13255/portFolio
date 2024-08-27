@@ -1,54 +1,50 @@
-$(function() {
-	setTimeout(function(){
-		$('.logo_fadein p').fadeIn(1000);
-	},500);
-	setTimeout(function(){
-		$('.logo_fadein').fadeOut(1000);
-	},2500);
+$(function () {
+  setTimeout(function () {
+    $(".logo_fadein p").fadeIn(1000);
+  }, 0);
+  setTimeout(function () {
+    $(".logo_fadein").fadeOut(1000);
+  }, 2500);
 });
 
-// eachTextAnimeにappeartextというクラス名を付ける定義
-function EachTextAnimeControl() {
-    $('.eachTextAnime').each(function () {
-      var elemPos = $(this).offset().top - 50;
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      if (scroll >= elemPos - windowHeight) {
-        $(this).addClass("appeartext");
-  
+function TextTypingAnime() {
+  $(".TextTyping").each(function () {
+    var elemPos = $(this).offset().top - 50;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    var thisChild = "";
+    if (scroll >= elemPos - windowHeight) {
+      thisChild = $(this).children();
+      thisChild.each(function (i) {
+        var time = 100;
+        $(this)
+          .delay(time * i)
+          .fadeIn(time);
+      });
+    } else {
+      thisChild = $(this).children();
+      thisChild.each(function () {
+        $(this).stop();
+        $(this).css("display", "none");
+      });
+    }
+  });
+}
+
+$(window).on("load", function () {
+  var element = $(".TextTyping");
+  element.each(function () {
+    var text = $(this).html();
+    var textbox = "";
+    text.split("").forEach(function (t) {
+      if (t !== " ") {
+        textbox += "<span>" + t + "</span>";
       } else {
-        $(this).removeClass("appeartext");
+        textbox += t;
       }
     });
-  }
-  
-  // 画面をスクロールをしたら動かしたい場合の記述
-  $(window).scroll(function () {
-    EachTextAnimeControl();/* アニメーション用の関数を呼ぶ*/
-  });// ここまで画面をスクロールをしたら動かしたい場合の記述
-  
-  // 画面が読み込まれたらすぐに動かしたい場合の記述
-  $(window).on('load', function () {
-    //spanタグを追加する
-    var element = $(".eachTextAnime");
-    element.each(function () {
-      var text = $(this).text();
-      var textbox = "";
-      text.split('').forEach(function (t, i) {
-        if (t !== " ") {
-          if (i < 10) {
-            textbox += '<span style="animation-delay:.' + i + 's;">' + t + '</span>';
-          } else {
-            var n = i / 10;
-            textbox += '<span style="animation-delay:' + n + 's;">' + t + '</span>';
-          }
-  
-        } else {
-          textbox += t;
-        }
-      });
-      $(this).html(textbox);
-    });
-  
-    EachTextAnimeControl();/* アニメーション用の関数を呼ぶ*/
-  });// ここまで画面が読み込まれたらすぐに動かしたい場合の記述
+    $(this).html(textbox);
+  });
+
+  TextTypingAnime();
+});
