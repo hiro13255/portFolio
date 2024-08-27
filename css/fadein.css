@@ -11,7 +11,7 @@
 .logo_fadein p {
   position: fixed;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   display: none;
   z-index: 9999;
