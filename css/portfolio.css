@@ -44,12 +44,9 @@
 .portfolio-chat {
   text-align: center;
   background-color: #79bd9a;
-  height: 250px;
   width: 75px;
   /* 枠 */
-  height: 670px;
 
-  box-shadow: 10px 15px 2px rgba(125, 125, 119, 0.35);
   border-radius: 44px;
 }
 
@@ -68,9 +65,7 @@
   background-color: #79bd9a;
   width: 75px;
   /* 枠 */
-  height: 670px;
 
-  box-shadow: 10px 15px 2px rgba(125, 125, 119, 0.35);
   border-radius: 44px;
 }
 
@@ -87,12 +82,9 @@
 .portfolio-me {
   text-align: center;
   background-color: #79bd9a;
-  height: 250px;
   width: 80px;
   /* 枠 */
-  height: 670px;
-
-  box-shadow: 10px 15px 2px rgba(125, 125, 119, 0.35);
+  
   border-radius: 44px;
 }
 
@@ -144,6 +136,9 @@
   transform: rotate(-45deg);
 }
 
+.swiper .portfolio-contents-inner .swiper-slide {
+	height: 670px;
+}
 @media (max-width: 1279px) {
   .portfolio-contents-inner {
     font-size: 0.8rem;
@@ -211,15 +206,7 @@
     height: 15%;
   }
 
-  .portfolio-chat {
-    height: 500px;
-  }
-
-  .portfolio-ticket {
-    height:500px;
-  }
-
-  .portfolio-me {
+  .swiper .portfolio-contents-inner .swiper-slide {
     height: 500px;
   }
 
