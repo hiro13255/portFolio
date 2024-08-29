@@ -99,6 +99,10 @@ right: -7%;
 }
 
 @media (max-width: 1279px) {
+  body{
+    margin-top: 55px;
+  }
+
   .sp_br {
     display: inline;
   }
