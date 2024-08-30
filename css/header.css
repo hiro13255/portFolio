@@ -112,7 +112,8 @@
   .slide-menu li {
     color: #fff;
     line-height: 400%;
-    text-align: center;
+    margin:0 auto;
+    padding-right: 40px;
   }
 
   .hamburger.active span:first-of-type {
@@ -148,6 +149,7 @@
   .header-list a {
     font-size: 1.7rem;
   }
+  
 }
 
 @media (max-width: 767px) {
