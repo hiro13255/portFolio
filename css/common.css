@@ -21,14 +21,14 @@ li {
 }
 
 .control {
-  display: flex ;
-  width: auto ;
+  display: flex;
+  width: auto;
   margin-top: 24px;
 }
 
 .control img {
   padding: 20px 20px;
-  height: 40px ;
+  height: 40px;
 }
 
 .sp_br {
@@ -56,15 +56,15 @@ li {
 
 .swiper-slide {
   margin-bottom: 5%;
-  opacity: .3; 
-  transform: scale(0.5) !important;  
-  transition: .7s; 
+  opacity: 0.3;
+  transform: scale(0.5) !important;
+  transition: 0.7s;
 }
 
 .swiper-slide-active {
   opacity: 1;
-  transform: scale(0.9) !important; 
-  z-index: 1; 
+  transform: scale(0.9) !important;
+  z-index: 1;
 }
 
 .control {
@@ -84,14 +84,14 @@ li {
   margin-top: 30px;
 }
 
-.portfolio-swiper-button-prev{
-position: relative;
-left: -7%;
+.portfolio-swiper-button-prev {
+  position: relative;
+  left: -7%;
 }
 
 .portfolio-swiper-button-next {
-position: relative;
-right: -7%;
+  position: relative;
+  right: -7%;
 }
 
 .services-control {
@@ -99,6 +99,10 @@ right: -7%;
 }
 
 @media (max-width: 1279px) {
+  body {
+    margin-top: 55px;
+  }
+
   .sp_br {
     display: inline;
   }
