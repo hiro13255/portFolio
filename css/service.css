@@ -1,15 +1,13 @@
 .services-contents {
+  height: 650px;
   /* 左線 */
   border-left: 5px solid white;
   padding-top: 25px;
-  padding-left: 80px;
   margin-left: 70px;
 }
 
 .services-contents-inner {
   position: relative;
-  /* display: flex; */
-
   font-size: 20px;
   color: black;
 }
@@ -47,7 +45,7 @@
   margin: 0 10px;
 }
 
-.swiper .service-contents-inner .swiper-slide {
+.service-panel.services.swiper-slide {
   height: 550px
 }
 
@@ -72,6 +70,7 @@
 @media (max-width: 767px) {
   .services-contents {
     border: none;
+    height: 500px;
     padding: 0;
     margin-left: 7%;
     margin-right: 7%;
@@ -83,7 +82,7 @@
   }
 
   .service-panel img {
-    height: 20%;
+    height: 40%;
     width: 60%;
   }
 
@@ -93,6 +92,9 @@
   }
 
   .service-panel {
-    height: 350px;
+    height: 300px;
+  }
+  .service-panel.services.swiper-slide {
+    height: 400px
   }
 }
