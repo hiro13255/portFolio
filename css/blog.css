@@ -27,6 +27,10 @@
   text-align: left;
 }
 
+a {
+  color: white;
+}
+
 @media (max-width: 1279px) {
   .blog-contents img {
     height: 30%;
