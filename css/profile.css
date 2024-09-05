@@ -1,48 +1,44 @@
 .profile-contents {
   border-left: 5px solid white;
-  padding: 25px 0 25px 80px;
+  padding: 25px 10px 25px 80px;
   margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .profile-img1 {
-  height: 35%;
+  height: auto;
   width: 35%;
   box-shadow: 10px 10px #79bd9a;
   border-radius: 20px;
   display: inline;
-  position: relative;
-  left: 20vh;
+  margin-left: 5vh;
 }
 
 .profile-list-1 {
   font-size: 20px;
-  position: relative;
-  top: 5vh;
-  left: 30vh;
+  margin-left: 16%;
 }
 
-.profile-top {
+.profile-top, .profile-bottom {
   display: flex;
-  margin-bottom: 25vh;
-}
-
-.profile-bottom {
-  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5vh; 
 }
 
 .profile-list-2 {
   font-size: 20px;
-  position: relative;
-  top: 5vh;
-  left: 20vh;
+  margin-left: 5vh;
 }
 
 .profile-img2 {
-  height: 25%;
+  height: auto;
   width: 30%;
   border-radius: 20px;
-  position: relative;
-  left: 35vh;
+  margin-left:18% ;
 }
 
 .profile-contents li {
@@ -95,20 +91,17 @@
     height: 200px;
     object-fit: cover;
     object-position: left top;
-    position: relative;
-    left: auto;
+    margin-left:0 ;
   }
 
   .profile-list-1 {
     font-size: 1.2rem;
-    position: relative;
-    left: auto;
+    margin-left:0 ;
   }
 
   .profile-list-2 {
     font-size: 1.2rem;
-    position: relative;
-    left: auto;
+    margin-left:0 ;
   }
 
   .profile-img2 {
@@ -116,9 +109,7 @@
     height: 200px;
     object-fit: cover;
     object-position: left bottom;
-    position: relative;
-    bottom: 3vh;
-    left: auto;
+    margin-left:0 ;
   }
 }
 
