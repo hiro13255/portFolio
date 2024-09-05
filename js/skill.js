@@ -11,17 +11,14 @@ const swiper = new Swiper(".swiper", {
 
     breakpoints: {
       100: {
-        slidesPerView: 2,
-        spaceBetween:-200,
+        spaceBetween:-100,
       },
       // 画面幅が767px以上の場合
       767: {
-        slidesPerView: 2.3,
-        spaceBetween:-280,
+        spaceBetween:-200,
       },
       // 画面幅が1279px以上の場合
       1279: {
-        slidesPerView: 2.5,
         spaceBetween:-250,
       },
     },
