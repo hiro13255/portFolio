@@ -55,8 +55,9 @@
   }
 
   .services-contents p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
+
   .service-panel {
     height: 425px;
   }
@@ -71,7 +72,7 @@
   }
 
   .services-contents h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: 2% 5%;
   }
 
@@ -81,7 +82,7 @@
   }
 
   .services-contents p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     padding: 10px 10px;
   }
 
