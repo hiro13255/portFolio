@@ -1,5 +1,4 @@
 .portfolio-contents {
-  height: 750px;
   /* 左線 */
   border-left: 5px solid white;
   padding-top: 25px;
@@ -44,15 +43,13 @@
 .portfolio-chat {
   text-align: center;
   background-color: #79bd9a;
-  width: 75px;
   /* 枠 */
-  
+  height: 670px;
   border-radius: 44px;
 }
 
 .portfolio-chat p {
   text-align: justify;
-  text-justify: inter-ideograph;
   line-height: 1.6;
   margin-bottom: 12px;
   padding: 0 15px;
@@ -63,15 +60,13 @@
 .portfolio-ticket {
   text-align: center;
   background-color: #79bd9a;
-  width: 75px;
   /* 枠 */
-  
+  height: 670px;
   border-radius: 44px;
 }
 
 .portfolio-ticket p {
   text-align: justify;
-  text-justify: inter-ideograph;
   line-height: 1.6;
   margin-bottom: 12px;
   padding: 0 15px;
@@ -82,15 +77,13 @@
 .portfolio-me {
   text-align: center;
   background-color: #79bd9a;
-  width: 80px;
   /* 枠 */
-  
+  height: 670px;
   border-radius: 44px;
 }
 
 .portfolio-me p {
   text-align: justify;
-  text-justify: inter-ideograph;
   line-height: 1.6;
   margin-bottom: 12px;
   padding: 0 15px;
@@ -136,20 +129,18 @@
   transform: rotate(-45deg);
 }
 
-.swiper .portfolio-contents-inner .swiper-slide {
-	height: 670px;
-}
 @media (max-width: 1279px) {
   .portfolio-contents-inner {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .portfolio-contents p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    height: 30%;
   }
 
   .portfolio-contents h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     height: 13%;
   }
 
@@ -173,24 +164,35 @@
 @media (max-width: 767px) {
   .portfolio-contents {
     border: none;
-    height: 600px;
     padding: 0;
     margin-left: 7%;
     margin-right: 7%;
   }
 
   .portfolio-contents-inner {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   .portfolio-contents p {
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     padding: 0 5px;
   }
 
   .portfolio-contents h3 {
     font-size: 0.8rem;
     height: 13%;
+  }
+
+  .portfolio-chat {
+    height: 500px;
+  }
+
+  .portfolio-ticket {
+    height: 500px;
+  }
+
+  .portfolio-me {
+    height: 500px;
   }
 
   .portfolio-chat img {
@@ -205,16 +207,12 @@
     height: 20%;
   }
 
-  .swiper .portfolio-contents-inner .swiper-slide {
-    height: 500px;
-  }
-
   .portfolio-list {
     width: auto;
   }
 
   .portfolio-list li {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   .portfolio-list li::after {

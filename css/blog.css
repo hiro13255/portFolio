@@ -27,6 +27,14 @@
   text-align: left;
 }
 
+a {
+  color: rgb(170, 163, 163);
+}
+
+.blog-link:hover {
+  color: white;
+}
+
 @media (max-width: 1279px) {
   .blog-contents img {
     height: 30%;

@@ -38,12 +38,6 @@
   position: relative;
 }
 
-.swiper-wrapper {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: black;
-}
-
 .skill-language {
   text-align: center;
   background-color: #79bd9a;
@@ -85,9 +79,11 @@
     width: 50%;
     margin: 4% auto;
   }
+
   .imgae-resize {
     display: inline;
   }
+
   .skill-language img {
     height: 13%;
   }
